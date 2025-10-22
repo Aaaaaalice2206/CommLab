@@ -1,0 +1,33 @@
+body{
+    margin:0;
+    background-color: forestgreen;
+}
+
+#main-wrapper{
+    width:100%;
+    max-width: 500px;
+    height: 100px;
+    background-color: aquamarine;
+    margin:auto;
+}
+
+#main-wrapper h1{
+    text-align: center;
+}
+#headline-wrapper{
+    height:50px;
+    width:100%;
+    background-color: greenyellow;
+}
+
+.nav-item{
+    width:24%;
+    height:50px;
+    background-color: aqua;
+    display:inline-block;
+}
+
+#nav-wrapper{
+    text-align: center;
+    outline: 1px white solid;
+}

@@ -1,0 +1,52 @@
+body{
+    background-color: aquamarine;
+}
+
+.box{
+    width:300px;
+    /* height:300px; */
+    outline: 2px solid white;
+    padding: 10px;
+    margin:20px;
+    background-color: lightgreen;
+}
+
+#one{
+    /* display:none */
+    /* visibility: hidden; */
+    position:relative;
+    top: 0px;
+    left:20px;
+}
+
+#one span{
+    position: relative;
+    top:-6px;
+    left:2px;
+}
+
+/* #two:active{ */
+    /* background-color: aliceblue; */
+
+#two{
+    position: absolute;
+    top: 500px;
+    left:500px;
+}
+
+#three{
+    position:fixed;
+    bottom:0px;
+    right:0px;
+}
+
+#four{
+    position: sticky;
+    top:0px;
+    left:0px;
+    background-color: antiquewhite;
+}
+
+#five{
+    background-color: blueviolet;
+}

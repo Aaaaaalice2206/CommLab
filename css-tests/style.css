@@ -1,0 +1,58 @@
+body{
+    background-color: blueviolet;
+}
+p{
+    color: aquamarine;
+    background-color: palevioletred;
+    font-family: 'Times New Roman', Times, serif;
+}
+
+.box{
+    background-color: blue;
+    padding: 10px;
+    margin-bottom: 5px;
+}
+
+#two{
+    border: 2px black dashed;
+}
+#three{
+    padding:30px;
+    margin-top: 40px;
+}
+
+#three p{
+    background-color: brown;
+}
+
+#two p{
+    display: inline;
+}
+
+
+#four p{
+    display: inline;
+}
+
+#five{
+    width:200px;
+    height:100px;
+    margin-left: 100px;
+}
+
+.column{
+    width: 28%;
+    height:50px;
+    display:inline-block;
+    margin-bottom:100px; 
+    background-color: azure;
+}
+
+.column:hover{
+    background-color: pink;
+}
+
+div:hover{
+    background-color: hotpink;
+}
+
