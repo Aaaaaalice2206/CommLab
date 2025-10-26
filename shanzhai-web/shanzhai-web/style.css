@@ -45,10 +45,54 @@ a.carrd-link2{
     margin-bottom: 200px;
 }
 
-.intro-to-carrd{
-    font-size: 23px;
-    color: white;
-    margin-top: 30px;
+.darker{
+    color: rgb(12, 10, 10);
+    font-weight: bold;
+    font-size: 30px;
+    text-transform: uppercase;
+}
+
+.cracks {
+    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-size: 45px;  
+    letter-spacing: 2px;  
+    color: #cd1111; 
+    text-transform: uppercase;
+}
+
+.twist {
+    font-family: 'Pacifico', cursive;
+    font-size: 35px;
+    color: #ac7dd8; 
+    text-transform: uppercase;
+    transform: rotate(-5deg);  
+    display: inline-block; 
+}
+
+.scarrdtext1{
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-weight: bold;
+    font-size: 45px;
+    color: #fd5f5f;
+}
+
+.scarrdtext2{
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-weight: bold;
+    font-size: 45px;
+    color: #fd5f5f;
+    text-transform: lowercase;
+}
+
+.twist-description {
+    font-family: 'Bangers', cursive; 
+    font-size: 35px;  
+    color: #f08fc3; 
+    text-transform: uppercase; 
+    line-height: 1.6; 
+    display: inline-block;
+    transform: rotate(-5deg);  
+    animation: twistAnimation 1s ease-in-out infinite; 
 }
 
 a.scarrd-link{
