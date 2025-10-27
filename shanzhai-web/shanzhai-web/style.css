@@ -272,8 +272,6 @@ p{
   background-color: rgba(0,0,0,0.8);
 }
 
-
-
 a.send-box{
     font-weight: bold;
     font-size: 18px;
@@ -352,4 +350,142 @@ a.send-box:hover {
     transform: translateY(-10px);
     box-shadow: 0 6px 15px rgba(0, 0, 0, 0.15);
 }
+
+.heal-page {
+    max-width: 1000px;
+    margin: 0 auto;
+    padding: 20px;
+}
+
+.mainheal-title {
+    font-size: 48px;
+    color: #fefefe;
+    margin-bottom: 20px;
+    margin-top: 400px;
+}
+
+.subtitle {
+    font-size: 20px;
+    color: #f1efef;
+    margin-bottom: 40px;
+}
+
+.inhale-button-container {
+    margin-bottom: 40px;
+}
+
+.inhale-button {
+    display: inline-block;
+    font-size: 22px;
+    color: white;
+    background-color: #4CAF50;
+    width: 200px;
+    height: 200px;
+    border-radius: 50%;
+    line-height: 200px;
+    text-decoration: none;
+    text-align: center;
+    font-weight: bold;
+    transition: background-color 0.3s ease;
+}
+
+.inhale-button:hover {
+    background-color: #45a049;
+}
+
+.breathing-instructions {
+    display: flex;
+    justify-content: space-between;
+    gap: 20px;
+    margin-top: 40px;
+    margin-bottom: 220px;
+}
+
+.instruction {
+    background-color: #b3d9e3;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+    width: 30%;
+    text-align: center;
+}
+
+.instruction h2 {
+    font-size: 22px;
+    color: #07130d;
+    margin-bottom: 10px;
+}
+
+.instruction p {
+    font-size: 16px;
+    color: #666;
+}
+
+body.cheerup-page {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    padding: 40px 20px;
+    height: 1200px;
+    margin: 0;
+}
+
+.cheerup-page h1 {
+    font-size: 45px;
+    color: #f9f57e;
+    margin-bottom: 10px;
+}
+
+.cheerup-page p {
+    font-size: 28px;
+    color: #c0dc9b;
+    margin-bottom: 40px;
+}
+
+.grid-section2 {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    gap: 20px;
+    align-items: center;
+    padding: 0 20px;
+}
+
+.grid-container2 {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    gap:20px;
+    max-width:1200px;
+    justify-content: center;
+    width: 100%;
+}
+
+.grid-item2 {
+    width:50%;
+    background-color: #fff;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+    width:200px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    transition: transform 0.3s, box-shadow 0.3s, background-color 0.3s;
+    margin-top: 3px;
+}
+
+.grid-item2:hover {
+    background-color: #e159aa;
+    box-shadow: 0 6px 15px rgba(0, 0, 0, 0.1);
+}
+
+.grid-item2 p {
+    font-size: 17px;
+    color: #333;
+    margin: 0;
+}
+
 
