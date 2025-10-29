@@ -17,11 +17,8 @@ In a world where most tutorials and templates guide us to create polished, perfe
 ![Minimalist design for emotional damage](minimalist.png)  
 *A minimalist design with a story of emotion.*
 
-![Your page is a canvas for expression](canvas.png)  
-*Make the page a canvas! Your feelings are free to express themselves.*
-
 ![Customize your feelings](customize.png)  
-**
+*Pick your overriding feeling and tailor solutions for healing!*
 
 ---
 
