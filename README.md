@@ -5,6 +5,7 @@ SEE MY RENDERED WEB WORK [BELOW]( https://aaaaaalice2206.github.io/CommLab/)
 These are the weekly exerciese I did in class:
 * [back-to-dorm](back-to-dorm)
 * [tutorial](tutorial)
+*[lorem](lorem)
 
 And also here are some in-class exercises I did to test out the functions of some code in both CSS and HTML:
 * [css-layout1](css-layout1)
