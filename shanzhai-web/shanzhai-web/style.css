@@ -92,7 +92,6 @@ a.carrd-link2{
     line-height: 1.6; 
     display: inline-block;
     transform: rotate(-5deg);  
-    animation: twistAnimation 1s ease-in-out infinite; 
 }
 
 a.scarrd-link{
