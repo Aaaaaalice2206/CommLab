@@ -2,7 +2,7 @@
 
 SEE MY RENDERED WEB WORK [BELOW]( https://aaaaaalice2206.github.io/CommLab/)
 
-These are the weekly exerciese I did in class:
+These are the weekly exercises I did in class:
 * [back-to-dorm](back-to-dorm)
 * [tutorial](tutorial)
 * [lorem](lorem)
