@@ -143,8 +143,6 @@ The process of adapting and reinterpreting **Carrd** into **Scarrd** wasn’t ju
 - Choose a starting point, but don’t just focus on the design. Let your feelings guide you.
 - Feel free to express your worries and concerns in the pages and DIY your own *Scarrd* !
 
----
-
 ## Credits and References
 
 - The twisting of text and the upward-moving of the divs in the choose-your-path page and other transform functions: https://youtu.be/ZSQuEAVEHGs this is actually inspired by a learning assistant who reviews my shitty first draft and told me I could twist and make things move to emphasize the theme of broken & healing
