@@ -7,6 +7,7 @@ These are the weekly exercises I did in class:
 * [tutorial](tutorial)
 * [lorem](lorem)
 * [DOM-entropy](DOM-entropy)
+* [clock](clock)
 
 And also here are some in-class exercises I did to test out the functions of some code in both CSS and HTML:
 * [css-layout1](css-layout1)
