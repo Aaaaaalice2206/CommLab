@@ -1,5 +1,7 @@
 let clockBox = document.querySelector("#clock");
-let tickSound = document.querySelector("#tick");
+let popsound = document.querySelector("#popsound");
+let bgm = document.querySelector("#bgm");
+let musicBtn = document.querySelector("#music-btn");
 
 function getTheTime(){
     let now = new Date(); // return the "current moment" / current time
@@ -10,8 +12,6 @@ function getTheTime(){
     
     createBubble(h, m, s);
 }
-
-
 
 function createBubble(h, m, s) {
     let bubble = document.createElement("div");
@@ -40,9 +40,32 @@ function createBubble(h, m, s) {
     bubble.style.left = x + xVel + "px";
     bubble.style.bottom = y + yVel + "px";
 }, 20);
+
+        setTimeout(function() {
+        bubble.style.transition = "transform 0.3s, opacity 0.3s";
+        bubble.style.transform = "scale(4)";
+        bubble.style.opacity = 0;
+
+        popsound.currentTime = 0;
+        popsound.play();
+
+    }, 10000);
+
+    setTimeout(function() {
+        clearInterval(floatInterval);
+        bubble.remove();
+    }, 11000);
 }
 
-setInterval(getTheTime, 1000);
+setInterval(getTheTime, 1000);4
+
+musicBtn.addEventListener("click", function() {
+    if (bgm.paused) {
+        bgm.play();
+    } else {
+        bgm.pause();
+    }
+});
 
 
 // Leon's Helper function:
