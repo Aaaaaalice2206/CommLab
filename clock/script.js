@@ -17,7 +17,7 @@ function createBubble(h, m, s) {
     let bubble = document.createElement("div");
     bubble.classList.add("bubble");
 
-    let size = 10 + m * 1.5;
+    let size = 20 + m * 2;
     bubble.style.width = size + "px";
     bubble.style.height = size + "px";
 
