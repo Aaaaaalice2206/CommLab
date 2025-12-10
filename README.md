@@ -17,7 +17,6 @@ And also here are some in-class exercises I did to test out the functions of som
 
 Here is a link to [shanzhai-web](shanzhai-web), which is the very first big project I made using both HTML and CSS.
 
-
 I learned this CSS in class this month which allows me to format the link to make it appear prettier. 
 
 It is the very first function I succeeded in formatting in the shanzhai web project:
@@ -36,6 +35,7 @@ a.scarrd-link{
     margin-bottom: 200px;
 }
 ```
+And here is the link to my final project this semester[little-red](little red), which includes the newly learned CSS animations and javascript in the second half of the semester.
 
 To be honest, as a "computer idiot", I never imagined that I can create websites by myself in the past O(∩_∩)O
 
