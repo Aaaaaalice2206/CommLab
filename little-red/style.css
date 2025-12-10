@@ -1,0 +1,550 @@
+body{
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+    position: relative;
+}
+
+/*P1 Lockscreen*/
+body.lockscreen{
+    background-image: url("https://th.bing.com/th/id/R.f2ae085d3b42220e15b6d899dd47af6e?rik=jCAhbhzhB3yfPQ&riu=http%3a%2f%2fpic.616pic.com%2fbg_w1180%2f00%2f14%2f92%2f3oQkRAYzBU.jpg&ehk=m%2fui5mzmzhSUEk4718zS8%2bw7fr3Aw0IOVVN8PK38Oww%3d&risl=&pid=ImgRaw&r=0");
+    /*make the bg cover the whole screen on a large screen*/
+    background-size: cover;
+    background-position: center;
+}
+
+.phone{
+    position: relative;
+    display: inline-block;
+    justify-content: center;  
+    align-items: center; 
+    margin-top: 90px;
+}
+
+.phone img{
+    max-height:800px;
+    width:auto;
+    display: block;
+}
+
+.status-bar{
+    position: absolute;
+    top:40px;
+    left:225px;
+    width: 100%;
+    padding: 12px 20px;
+    color: rgb(255, 253, 253);
+    font-size: 16px;
+    display: flex;
+    gap: 15px;
+    text-shadow: 0 0 4px rgba(244, 242, 242, 0.5);
+}
+
+.battery{
+    margin-left: 180px;
+    color:black;
+}
+
+
+.time{
+    position:absolute;
+    top:200px;
+    color: rgb(7, 95, 184);
+    font-weight: 1000;
+    font-size: 100px;
+    font-weight: 300;
+    text-shadow: 0 0 10px rgba(10, 1, 1, 0.7);
+}
+
+.notification{
+    position: absolute;
+    top: 320px; 
+    width: 350px;
+    left:28%;
+    color: rgb(14, 13, 13);
+    font-size: 20px;
+    text-shadow: 0 0 6px rgba(0,0,0,0.5);
+    background-color: #ccc;
+    border-radius: 20px;
+    opacity: 80%;
+}
+
+.sender{
+    font-weight: bold;
+    margin-top: 10px;
+    margin-left: 20px;
+    font-size: 20px;
+}
+
+.message{
+    display: block;
+    /*tried this line but the margin still didn't work*/
+    font-size: 20px;
+    margin-left: 70px;
+}
+
+.unlock{
+    position: absolute;
+    bottom:120px;
+    left: 310px;
+    text-align: center;
+}
+
+.unlock-text {
+  color: white;
+  font-size: 24px;
+  font-weight: 300;
+  text-shadow: 0 0 6px rgba(0,0,0,0.6);
+  cursor: pointer;  
+}
+
+.unlock-text:hover {
+  color: #00aaff;
+}
+
+#authorization-popup {
+  position: fixed;
+  width: 100%;
+  height: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.authorization-content {
+  background-color: white;
+  padding: 30px;
+  border-radius: 20px;
+  text-align: center;
+  box-shadow: 0 0 20px rgba(0,0,0,0.5);
+}
+
+#authorization-popup.hidden {
+  display: none;
+}
+
+.error-message {
+  color: red;
+  margin-top: 10px;
+}
+
+.blur {
+  filter: blur(5px);
+}
+/*reference:https://developer.mozilla.org/en-US/docs/Web/CSS/Reference/Values/filter-function/blur*/
+
+/*P2 Messages*/
+body.messages{
+    background-image: url(https://img95.699pic.com/photo/60097/1521.jpg_wh860.jpg);
+    background-size: cover;
+    background-position: center;
+}
+
+.phone{
+    position: relative;
+    display: inline-block;
+}
+
+.phone img{
+    max-height: 800px;
+    width: auto;
+    display: block;
+}
+
+.chat-container{
+    position: absolute;
+    top: 70px; 
+    left: 237px;
+    width: 320px;  
+    height: 670px; 
+    border-radius: 25px;
+    background-color: #151414;
+    display: flex;
+    flex-direction: column;
+    overflow: hidden;
+    box-shadow: 0 0 10px rgba(0,0,0,0.2);
+}
+
+.chat-header{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px 15px;
+    border-bottom: 1px solid #eee;
+    font-size: 16px;
+    font-weight: bold;
+    color: #eee;
+}
+
+.chat-input{
+    display: flex;
+    padding: 8px;
+    border-top: 1px solid #eee;
+}
+
+.chat-input input{
+    width: 220px;
+    padding: 8px 10px;
+    border-radius: 20px;
+    border: 1px solid #ccc;
+    font-size: 14px;
+}
+
+.chat-input button{
+    margin-left: 6px;
+    padding: 8px 12px;
+    border-radius: 20px;
+    border: none;
+    background-color: #3498db;
+    color: white;
+    font-size: 14px;
+    cursor: pointer;
+}
+
+.keyboard{
+    width: 100%;
+    text-align: center;
+    margin-top: 5px; 
+}
+
+.keyboard img{
+    width: 100%; 
+    max-width: 320px;
+    display: block;
+    margin: 0 auto;
+}
+
+.chat-messages {
+    flex: 1;
+    padding: 10px;
+    display: flex;
+    flex-direction: column; 
+    /*forgot this line so that the flex-start and flex-ends didn't work*/
+}
+
+.message {
+    display: inline-block;
+    margin: 5px 0;
+    padding: 8px 12px;
+    border-radius: 14px;
+    max-width: 70%;
+    word-wrap: break-word;
+    font-size: 14px;
+}
+
+.message.mom {
+    background-color: #3498db;  
+    color: white;
+    align-self: flex-start;
+}
+
+.message.red {
+    background-color: #ff6b81; 
+    color: white;
+    align-self: flex-end;
+}
+
+.chat-messages {
+    flex: 1;
+    /*make the elements occupy the rest of the screen and scrollable, make sure the input box is at the bottom*/
+    padding: 10px;
+}
+
+.notification-popup {
+    position: absolute;
+    top: 20px;
+    left: 28%;
+    width: 260px;
+    padding: 12px;
+    background: rgba(255,255,255,0.9);
+    border-radius: 12px;
+    box-shadow: 0 4px 10px rgba(0,0,0,0.2);
+    font-size: 14px;
+    cursor: pointer;
+}
+
+.notification-title {
+    font-weight: bold;
+    display: block;
+    margin-bottom: 3px;
+}
+
+.hidden{
+    display:none;
+}
+
+@keyframes phoneShake {
+    0%   { transform: rotate(0deg); }
+    25%  { transform: rotate(-60deg); }
+    50%  { transform: rotate(0deg); }
+    75%  { transform: rotate(60deg); }
+    100% { transform: rotate(-45deg); }
+}
+
+.shake {
+    animation: phoneShake 6s ease-in-out;
+}
+
+/*p3 Find my*/
+.phone {
+    position: relative;
+    display: inline-block;
+}
+
+.phone img {
+    max-height: 800px;
+    width: auto;
+    display: block;
+}
+
+body.map-page {
+    background-image: url(forest.jpg);
+    background-size: cover;
+    background-position: center;
+    margin: 0;
+    padding: 0;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.map-container {
+    position: absolute;
+    width: 320px;
+    height: 350px;
+    top:80px;
+    left:235px;
+    border-radius: 30px;
+    overflow: auto;
+    box-shadow: 0 0 10px rgba(0,0,0,0.2);
+    cursor: pointer;
+}
+
+.map-image {
+    width: 500px;   
+    height: auto;
+    display: block;
+}
+
+.map-overlay {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    background-color: rgba(0,0,0,0.6);
+    color: white;
+    padding: 10px 20px;
+    border-radius: 10px;
+    font-size: 18px;
+    pointer-events:none;
+}
+
+.red-dot, .unknown-dot {
+    position: absolute;
+    width: 20px;
+    height: 20px;
+    border-radius: 50%;
+}
+
+.red-dot {
+    background-color: red;
+    top: 200px;
+    left: 100px;
+}
+
+.map-wrapper {
+    position: relative;
+    width: fit-content;
+    height: fit-content;
+}
+
+.grandma-popup {
+    position: absolute;
+    top: 520px;  
+    left: 130px; 
+    background: rgba(230, 226, 226, 0.9);
+    padding: 10px 15px;
+    border-radius: 10px;
+    font-weight: bold;
+    color: green;
+}
+
+.hidden {
+    display: none;
+}
+
+.directions-container {
+    position: absolute;
+    bottom: 40px;
+    left: 220px;
+    width: 350px;
+    display: flex;
+    justify-content: center;
+}
+
+.directions {
+    width: 330px;
+    height:320px; 
+    cursor: pointer;
+    border-radius: 0 0 30px 30px;
+    display:none;
+}
+
+/*P4 Media*/
+body.media{
+    background-image: url(https://img95.699pic.com/photo/50110/8335.jpg_wh860.jpg);
+    background-size: cover;
+    background-position: center;
+}
+
+.redintheforest {
+    position: absolute;
+    top: 165px;
+    left: 235px;
+    width: 180px;
+    height: 470px;
+    object-fit: cover;
+    cursor: pointer;
+}
+
+.comments {
+    position: absolute;
+    bottom: 100px;
+    left: 225px;
+    width: 180px;
+    height: 55px;
+    object-fit: contain;
+    cursor: pointer;
+}
+
+.social{
+    position: absolute;
+    top:100px;
+    left:230px;
+    width:180px;
+    height:50px;
+}
+
+/*P5 Notes */
+body.notes{
+    background-image: url("https://img95.699pic.com/photo/60067/0340.jpg_wh860.jpg");
+    background-size: cover;
+    background-position: center;
+}
+
+.phone {
+    position: relative;
+}
+
+.screen {
+    position: absolute;
+    top: 90px;      
+    left: 238px;     
+    width: 320px;   
+    height: 600px;  
+    background: #fcefb4;
+    overflow-y: scroll;
+    padding: 15px;
+    box-sizing: border-box;
+    border-radius: 10px;
+}
+
+.title {
+    font-size: 55px;
+    text-align: center;
+    color: #3c341f;
+    margin-top: 0;
+    font-family: "Brush Script MT", cursive;
+}
+
+.list {
+    list-style: none;
+    padding: 0;
+    margin-top: 25px;
+    font-size: 25px;
+    line-height: 1.8;
+}
+
+.list li {
+    opacity: 0;
+    transform: translateY(20px);
+    transition: 0.7s ease;
+}
+
+.cross {
+    text-decoration: line-through;
+    color: #7a6f5a;
+}
+
+.detail {
+    display: block;
+    font-size: 15px;
+    color: #7a6f5a;
+    margin-left: 10px;
+    margin-top: -5px;
+}
+
+#alert {
+    margin-top: 20px;
+    text-align: center;
+    font-size: 18px;
+    color: red;
+    opacity: 0;
+    animation: blink 1s infinite;
+    
+}
+
+@keyframes blink {
+    0% { opacity: 0; }
+    50% { opacity: 1; }
+    100% { opacity: 0; }
+}
+
+/*P6 Shutdown*/
+body.shutdown {
+    background-image: url("https://th.bing.com/th/id/R.8a98387c6ac171ede40f4e0db0a381cf?rik=WIRXGPIBNkaiUw&riu=http%3a%2f%2fpic.616pic.com%2fbg_w1180%2f00%2f09%2f48%2fzTfNt2BSiW.jpg!%2ffw%2f1120&ehk=ALdyceBTSjg84NZ1rn0OqURguz5ZNT3oLjJVk8xLQwM%3d&risl=&pid=ImgRaw&r=0");
+    background-size: cover;
+    background-position: center;            
+}
+
+.wolf {
+    position: absolute;
+    bottom: 0;
+    left: 10%;
+    width: 450px;
+    pointer-events: none;
+}
+
+#phoneontheground {
+    position: absolute;
+    bottom: 350px;
+    left: 520px;
+    width: 200px;
+    cursor: pointer;
+}
+
+#phoneontheground:hover {
+    transform: scale(3);
+}
+
+.phone-popup {
+    display: none;
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100vw;
+    height: 100vh;
+    background: rgba(0,0,0,0.75);
+    justify-content: center;
+    align-items: center;
+}
+
+
+
+
+

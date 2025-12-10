@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="messages.js" defer></script>
+</head>
+<body class="messages">
+     <div class="phone">
+        <img src="phoneblack.png" alt="phone">
+        <audio id="sendSound" src="sendsound.m4a"></audio>
+        <div class="chat-container">
+            <div class="chat-header">
+                <span class="chat-title" id="chatTitle">Mom 🩷</span>
+                <span class="camera">📷</span>
+            </div>
+            <div class="chat-messages" id="chatMessages">
+                <div class="message mom">Remember to take the basket when you visit grandma!</div>
+                <div class="message mom">And don't talk to strangers, okay?</div>
+                <div class="message red hidden" id="red1">I won't, I promise!</div>
+                <div class="message mom hidden" id="momReply">The forest path can be tricky. Take the main road.</div>
+                <div class="message red hidden" id="red2">But the forest is faster!</div>
+            </div>
+            <div class="chat-input">
+                <input type="text" autocomplete="off" id="userInput" placeholder="Type a message...">
+                <button id="sendBtn">Send</button>
+            </div>
+            <div class="keyboard">
+                <img src="keyboard.webp" alt="keyboard">
+            </div>
+            <button id="findMyBtn" class="hidden">FindMy</button>
+        </div>
+        <div id="unknownNotification" class="unknown-popup hidden">
+                <span class="notification-title">Unknown</span>
+                <span class="notification-message">Hi Red, I saw you take the forest trail.</span>
+        </div>
+    </div>
+</body>
+</html>

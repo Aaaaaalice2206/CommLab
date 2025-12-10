@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="index.js" defer></script>
+</head>
+<body class="lockscreen">
+    <div class="phone">
+        <img src="iphone.png" alt="phone">
+             <div class="notification hidden">
+                <div class="sender">Mum</div>
+                <div class="message">Unlock first to view message.</div>
+             </div>
+             <div class="status-bar">
+                <span class="signal">📶</span>
+                <span class="carrier">5G</span>
+                <span class="battery">🔋 82%</span>
+             </div>
+             <div class="unlock hidden">
+                <span id="unlockBtn" class="unlock-text">Click to unlock →</span>
+             </div>
+             <audio id="message-sound" src="messagein.mp3"></audio>    
+     </div>
+         <div id="authorization-popup" class="hidden">
+             <div class="authorization-content">
+                 <p>Who are you?</p>
+                 <input type="text" id="answer" placeholder="Type your answer" autocomplete="off">
+                 <button id="enterBtn">Enter</button>
+                 <p id="error-message" class="error-message"></p>
+             </div>
+             <audio id="unlock-sound" src="unlock.mp3"></audio>
+         </div>
+        <div class="time">
+             <span id="hour">--</span>:<span id="minute">--</span>
+        </div>
+</body>
+</html>
+
