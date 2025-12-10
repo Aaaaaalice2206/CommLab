@@ -35,7 +35,7 @@ a.scarrd-link{
     margin-bottom: 200px;
 }
 ```
-And here is the link to my final project this semester[little-red](little red), which includes the newly learned CSS animations and javascript in the second half of the semester.
+And here is the link to my final project this semester[little-red](little-red), which includes the newly learned CSS animations and javascript in the second half of the semester.
 
 To be honest, as a "computer idiot", I never imagined that I can create websites by myself in the past O(∩_∩)O
 
