@@ -48,7 +48,7 @@ let unlockSound = document.querySelector("#unlock-sound");
   if(answer == "Little Red Riding Hood") {
     unlockSound.play();
     setTimeout(function() {
-      window.location.href = "messages.html";
+      window.location.href = "mainpage.html";
     }, 150);
     //added the settimeout because initially the sound was cut off when redirecting immediately
   } else {

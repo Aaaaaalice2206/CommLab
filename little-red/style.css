@@ -8,6 +8,7 @@ body{
     position: relative;
 }
 
+/*profile*/
 body.profile{
     background-image: url(profile.jpg);
     background-size: cover;
@@ -600,9 +601,57 @@ body.shutdown {
     left: 20px;
     border-width: 10px;
     border-style: solid;
-    border-color: rgba(255, 255, 255, 0.9) transparent transparent transparent;
+    border-color: rgba(255, 255, 255, 0.9);
 }
 
+/*mainpage*/
+body.mainpage{
+    background-image: url("https://th.bing.com/th/id/R.f2ae085d3b42220e15b6d899dd47af6e?rik=jCAhbhzhB3yfPQ&riu=http%3a%2f%2fpic.616pic.com%2fbg_w1180%2f00%2f14%2f92%2f3oQkRAYzBU.jpg&ehk=m%2fui5mzmzhSUEk4718zS8%2bw7fr3Aw0IOVVN8PK38Oww%3d&risl=&pid=ImgRaw&r=0");
+    background-size: cover;
+    background-position: center;
+    justify-content: center;
+    align-items: center; 
+}
+
+body.mainpage.phone{
+    position: relative;
+    display: inline-block;
+}
+
+.phone img{
+    max-height: 800px;
+    width: auto;
+    display: block;
+}
+
+.phone-bigimg {
+    position: absolute;
+    top: 125px;            
+    left:230px;       
+    height: 490px;
+}
+
+.dock-bg {
+    position:absolute;
+    left:230px;
+    top:585px;
+    height: 88px;
+}
+
+.icons {
+    position: absolute;
+    bottom: 140px;     
+    left: 280px;
+    width: 240px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.app-icon {
+    width: 50px;
+    height: 50px;
+    cursor: pointer;
+}
 
 
 
