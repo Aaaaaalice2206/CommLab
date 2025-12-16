@@ -9,9 +9,6 @@ function getTheTime(){
     document.querySelector("#hour").textContent = String(h).padStart(2, '0');
     document.querySelector("#minute").textContent = String(m).padStart(2, '0');
 }
-// how to make the numbers two digit? now if it's 1:00, it will show 1:0.
-//ans: search js pad number to two dogots leading 0，need to use string()把这些number不足两位数的用两位数补齐
-// eg: String(n).padStart(4, '0'); // '0009'
 
 setInterval(getTheTime, 1000);
 
@@ -43,8 +40,6 @@ let unlockSound = document.querySelector("#unlock-sound");
 
   enterBtn.addEventListener("click", function() {
   let answer = answerInput.value.trim();
-  //added trim() to remove extra spaces before or after the answer,before adding this enterBtn always showed try again even the answer was correct but with extra spaces
-  //reference:https://developer.mozilla.org/en-US/docs/Web/CSS/Reference/Properties/text-spacing-trim
   if(answer == "Little Red Riding Hood") {
     unlockSound.play();
     setTimeout(function() {

@@ -116,7 +116,6 @@ body.lockscreen{
 
 .message{
     display: block;
-    /*tried this line but the margin still didn't work*/
     font-size: 20px;
     margin-left: 70px;
 }
@@ -169,7 +168,6 @@ body.lockscreen{
 .blur {
   filter: blur(5px);
 }
-/*reference:https://developer.mozilla.org/en-US/docs/Web/CSS/Reference/Values/filter-function/blur*/
 
 /*P2 Messages*/
 body.messages{
@@ -453,7 +451,6 @@ body.media{
     left: 225px;
     width: 180px;
     height: 55px;
-    object-fit: contain;
     cursor: pointer;
 }
 
@@ -582,10 +579,10 @@ body.shutdown {
 #phoneontheground:hover {
     content: url('phone-popup.png'); 
     width: 300px;                   
-    transform: translate(-50%, -50%); 
+    display: flex;
+    justify-content: center;
+    align-items: center;
     position: fixed;                 
-    top: 50%;
-    left: 50%;
 }
 
 .phone-popup {

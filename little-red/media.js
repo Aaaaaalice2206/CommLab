@@ -9,13 +9,19 @@ let pics = [
 let index = 0;
 let screen = document.querySelector("#redScreen");
 
-screen.addEventListener("click", function () {
-    index = (index + 1) % pics.length;
+let nextPic = function(event) {
+    index = index + 1;
+    if(index > pics.length - 1) {
+        index = 0;
+    }
     screen.src = pics[index];
-});
+};
+screen.addEventListener("click", nextPic);
 
 let commentsBtn = document.querySelector("#commentsBtn");
 
 commentsBtn.addEventListener("click", function () {
     window.location.href = "notes.html";  
 });
+
+

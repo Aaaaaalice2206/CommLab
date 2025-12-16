@@ -221,5 +221,35 @@ Sound of sending out messages：https://www.aigei.com/item/ping_guo_shou_j_3298.
 Other sound effects are recorded using my own phone.
 ### Technical References:
 
-Removing the autofill in the first page and the second page：:https://geek-docs.com/html/html-ask-answer/289_html_how_to_turn_off_html_input_form_field_suggestions.html#:~:text=autocomplete%20%E5%B1%9E%E6%80%A7%E7%9A%84%E5%80%BC%E4%B8%BA%20off%20%E6%97%B6%EF%BC%8C%E4%BC%9A%E5%91%8A%E8%AF%89%E6%B5%8F%E8%A7%88%E5%99%A8%E4%B8%8D%E8%A6%81%E6%8F%90%E4%BE%9B%E8%87%AA%E5%8A%A8%E5%BB%BA%E8%AE%AE%E3%80%82%20%E8%BF%99%E4%B8%AA%E5%B1%9E%E6%80%A7%E5%8F%AF%E4%BB%A5%E5%BA%94%E7%94%A8%E4%BA%8E%E4%B8%8D%E5%90%8C%E7%B1%BB%E5%9E%8B%E7%9A%84%E8%A1%A8%E5%8D%95%E5%AD%97%E6%AE%B5%EF%BC%8C%E6%AF%94%E5%A6%82%E8%BE%93%E5%85%A5%E6%A1%86%E3%80%81%E5%AF%86%E7%A0%81%E6%A1%86%E7%AD%89%E3%80%82%20Firefox%E6%B5%8F%E8%A7%88%E5%99%A8%E4%B8%AD%EF%BC%8C%E5%8F%AF%E4%BB%A5%E4%BD%BF%E7%94%A8%20autocomplete,%E5%B1%9E%E6%80%A7%E6%9D%A5%E7%A6%81%E7%94%A8%E8%BE%93%E5%85%A5%E8%A1%A8%E5%8D%95%E5%AD%97%E6%AE%B5%E7%9A%84%E5%BB%BA%E8%AE%AE%EF%BC%8C%E4%B8%8EGoogle%20Chrome%E7%B1%BB%E4%BC%BC%E3%80%82%20%E5%90%8C%E6%A0%B7%E5%9C%B0%EF%BC%8C%E5%B0%86%20autocomplete%20%E5%B1%9E%E6%80%A7%E8%AE%BE%E7%BD%AE%E4%B8%BA%20off%20%E5%8D%B3%E5%8F%AF%E5%85%B3%E9%97%AD%E5%BB%BA%E8%AE%AE%E3%80%82
+#### CSS:
+
+Blurring the background: https://developer.mozilla.org/en-US/docs/Web/CSS/Reference/Values/filter-function/blur*/
+
+Making the elements occupy the rest of the screen and scrollable to make sure the input box is at the bottom: https://developer.mozilla.org/zh-CN/docs/Web/CSS/Reference/Properties/flex
+
+Making the speech bubble:https://developer.mozilla.org/zh-CN/docs/Web/CSS/Reference/Selectors/::after
+
+#### Javascript:
+
+Removing the autofill：:https://geek-docs.com/html/html-ask-answer/289_html_how_to_turn_off_html_input_form_field_suggestions.html#:~:text=autocomplete%20%E5%B1%9E%E6%80%A7%E7%9A%84%E5%80%BC%E4%B8%BA%20off%20%E6%97%B6%EF%BC%8C%E4%BC%9A%E5%91%8A%E8%AF%89%E6%B5%8F%E8%A7%88%E5%99%A8%E4%B8%8D%E8%A6%81%E6%8F%90%E4%BE%9B%E8%87%AA%E5%8A%A8%E5%BB%BA%E8%AE%AE%E3%80%82%20%E8%BF%99%E4%B8%AA%E5%B1%9E%E6%80%A7%E5%8F%AF%E4%BB%A5%E5%BA%94%E7%94%A8%E4%BA%8E%E4%B8%8D%E5%90%8C%E7%B1%BB%E5%9E%8B%E7%9A%84%E8%A1%A8%E5%8D%95%E5%AD%97%E6%AE%B5%EF%BC%8C%E6%AF%94%E5%A6%82%E8%BE%93%E5%85%A5%E6%A1%86%E3%80%81%E5%AF%86%E7%A0%81%E6%A1%86%E7%AD%89%E3%80%82%20Firefox%E6%B5%8F%E8%A7%88%E5%99%A8%E4%B8%AD%EF%BC%8C%E5%8F%AF%E4%BB%A5%E4%BD%BF%E7%94%A8%20autocomplete,%E5%B1%9E%E6%80%A7%E6%9D%A5%E7%A6%81%E7%94%A8%E8%BE%93%E5%85%A5%E8%A1%A8%E5%8D%95%E5%AD%97%E6%AE%B5%E7%9A%84%E5%BB%BA%E8%AE%AE%EF%BC%8C%E4%B8%8EGoogle%20Chrome%E7%B1%BB%E4%BC%BC%E3%80%82%20%E5%90%8C%E6%A0%B7%E5%9C%B0%EF%BC%8C%E5%B0%86%20autocomplete%20%E5%B1%9E%E6%80%A7%E8%AE%BE%E7%BD%AE%E4%B8%BA%20off%20%E5%8D%B3%E5%8F%AF%E5%85%B3%E9%97%AD%E5%BB%BA%E8%AE%AE%E3%80%82
+
+Going to the next page upon click of the button: https://blog.csdn.net/weixin_42583683/article/details/144164586 (Section 3.3.1)
+
+Removing extra spaces before or after the answer so that the answer will be interpreted as correct even with additional spaces: https://developer.mozilla.org/en-US/docs/Web/CSS/Reference/Properties/text-spacing-trim
+
+Making the time appearing in two digits with leading zeros filling if it's only oen digit: https://stackoverflow.com/questions/10073699/pad-a-number-with-leading-zeros-in-javascript
+
+Putting pictures in arrays so that with every click there's a change: https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Array & https://www.delftstack.com/zh/howto/javascript/javascript-array-of-images/
+
+Click to cycle effect2: https://blog.csdn.net/weixin_46410264/article/details/105083507 
+
+Getting the size and position of an element: https://developer.mozilla.org/en-US/docs/Web/API/Element/getBoundingClientRect
+
+
+
+
+
+
+
+
 
