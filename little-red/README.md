@@ -16,9 +16,6 @@ The guiding idea of creating this version is to reflect on a generation deeply o
 ![Messages from mom](messagespage.png)   
 *Reply to chat messages from mom!*
 
-![Where is grandma's house](grandmahousepage.png)  
-*Seek for grandma's house to get there!*
-
 ![Social media posts? Dangerous!](mediapage.png)  
 *Happy forest vibes? Don’t click too carelessly!*
 
