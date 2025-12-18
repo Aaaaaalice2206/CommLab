@@ -6,7 +6,7 @@ Messages, maps, and notifications replace the wolf, turning everyday digital hab
 
 ## Abstract
 
-This project adapts *Little Red Riding Hood* into an interactive web-based narrative experienced entirely through a simulated smartphone screen. The familiar fairy tale is placed into contemporary digital life in the form of chat messages, social feeds, location navigating, and system notifications. Instead of a wolf lurking in the forest, the danger emerges through the phone itself with persistent messages, invasive tracking, and unsettling alerts that slowly erode the sense of safety.
+This project adapts *Little Red Riding Hood* into an interactive web-based narrative experienced entirely through a simulated smartphone screen. The familiar fairy tale is placed into contemporary digital life in the form of chat messages, social feeds, location navigating, and system notifications. Instead of a wolf lurking in the forest, the danger emerges through the phone itself with the checking of daily messages, location searching, social media posts, and unsettling alerts that slowly erode the sense of safety and familiarity.
 
 The guiding idea of creating this version is to reflect on a generation deeply obssessed with screens and often ignoring parental advice and physical reality in favor of digital connection. By using the web as both medium and message, this project attempts to immerse the viewer in a progression from warmth and familiarity to fear and darkness (with a bad ending) and encourage reflection on how digital dependence can quietly transform everyday tools into sources of real-world risk.
 
@@ -22,7 +22,7 @@ The guiding idea of creating this version is to reflect on a generation deeply o
 # Adaptation Process  
 ### Source
 
-My adaptation is based on the fairy tale *Little Red Riding Hood*. Instead of retelling the story literally, I focused on its underlying themes of vulnerability, surveillance, and danger disguised as familiarity. In the original tale, the wolf observes, follows, and deceives Little Red Riding Hood. In my version, I translated the physical story into a contemporary digital context, where threats are mediated through mobile interfaces and constant connectivity.
+My adaptation is based on the fairy tale *Little Red Riding Hood*. Instead of retelling the story literally, I focused on its underlying themes of vulnerability, surveillance, and danger disguised as familiarity. In the original tale, the wolf observes, follows, and deceives Little Red Riding Hood in the real world. In my version, I translated the physical story into a contemporary digital context, where threats are mediated through mobile interfaces with constant connectivity (still with the wolf's presence but not the trigger of the girl's danger).
 
 ---
 
@@ -30,7 +30,7 @@ My adaptation is based on the fairy tale *Little Red Riding Hood*. Instead of re
 
 - Rather than adapting the narrative as a linear journey through a forest, I fragmented the story into everyday phone interactions. Little Red's process of walking in the forest was mostly shown in a series of digital spaces: a lock screen, a messaging app, location tracking, social media, and a notes application instead of physical ones (though there are also changes in background that reflects her process of walking).
 
-- The wolf no longer appears as a physical character. Instead, it exists as an anonymous and subtle presence appearing only in the corners of Little Red's selfies on her social media post. By removing a visible antagonist, I aimed to make the danger feel ambient and unavoidable to reflect how digital threats often operate without clear identity or location.
+- The wolf no longer appears as a physical character. Instead, it exists as an anonymous and subtle presence appearing only in the corners of Little Red's selfies on her social media post. By removing a visible antagonist, I aimed to make the danger feel ambient and unavoidable to reflect how threats often operate without clear identity or location in the digital era.
 
 ---
 
@@ -43,7 +43,7 @@ The narrative is shaped primarily through the affordances of the browser, especi
 - Sound is also used to mimic the real phone interface and immerse the user better in the story with the unlocking sound, incoming message sound, message sending sound and alert sound.
 - Reveal and hide techniques such as the hidden place of grandma's house in the map, lists gradually appearing as the user scroll down the phone interface reinforce the user's experience of the real story and better immerse them in Little Red's perspective, experiencing fun and danger with her together on the phone.
 
-Rather than relying on traditional plot development, the story allows more interaction and creates fun, engagement and suspense through interface behavior.
+Rather than relying on traditional plot development, this version allows more interaction and creates fun, engagement and suspense through interface behavior.
 
 ---
 
@@ -57,9 +57,9 @@ The project follows a structure that moves from familiarity to breakdown:
 - Find My visualizes proximity with the location of grandma's house and its distance from Little Red's standing point to be found.
 - Instagram Feed transforms danger into a public, social experience and invites the user to discover the wolf, which lays the foundation for the presence of the wolf and Little Red's being eaten by it. 
 - Notes shifts inward, not only staying true to the original story by disclosing what Little Red brings to grandma's house but also revealing anxiety and psychological instability with Little Red discovering the presence of the wolf and trying to ask for help.
-- Final Page with the phone out of battery on the ground concludes with technological failure and disappearance, and leaves a lesson to be leanrned from the story.
+- Final Page with the phone out of battery on the ground concludes with technological failure and disappearance, and leaves a lesson to be learned from the story.
 
-Interaction is intuitive, relying on gestures such as scrolling, typing and tapping. These interactions mirror everyday phone use, which makes the reader complicit in the narrative and reinforces the sense of immersion.
+Interaction is intuitive, relying on gestures such as scrolling, typing and tapping, which mirror everyday phone use and make the user complicit in the narrative and reinforces q sense of immersion.
 
 ---
 
@@ -73,19 +73,19 @@ The ending rejects the traditional rescue narrative. Instead of safety or resolu
 
 ### Reflection on Design Principles
 
-This project draws on Gestalt principles, particularly similarity and continuity, by using recognizable mobile UI patterns. Because users can quickly perceive these interfaces as coherent wholes, subtle disruptions such as screen shaking, color shifts from normal to red (in the notes page), alert sounds, or battery run-out become more unsettling.
+This project draws on Gestalt principles (particularly similarity and continuity) by using recognizable mobile UI patterns. Because users can quickly perceive these interfaces as coherent ones, subtle disruptions such as screen shaking, color shifting from normal to red (in the notes page), alert sounds, or battery run-out become more unsettling, as the user loses control of the phone.
 
-The work is intentionally medium-aware, drawing on McLuhan’s idea that the medium itself shapes meaning. The phone interface is not merely a container for the narrative but functions as the narrative logic of the story. Each interface (lock screen, messages, location tracking, social media, and notes) determines what can be seen, when it appears, and how the reader is allowed to interact. As the story progresses, these interfaces begin to behave unpredictably: words turn from black to red, location disappears and blood appears on the screen. In these moments, the phone is not just a neutral tool, but is an active agent that mediates power, visibility, and control.
+The work is medium-aware, drawing on McLuhan’s idea that the medium itself shapes meaning. The phone interface is not merely a container for the narrative but functions as the narrative logic of the story. Each interface (lock screen, messages, location tracking, social media, and notes) determines what can be seen, when it appears, and how the reader is allowed to interact. As the story progresses, these interfaces begin to behave unpredictably: words turn from black to red, location disappears and blood appears on the screen. In these moments, the phone is not just a neutral tool, but is an active agent that mediates power, visibility, and control.
 
-Rhythm also plays a central role in guiding the reader’s emotional experience. The story moves from warmth to darkness through a controlled escalation of pacing and disruption. Early screens are slow, clear, and familiar, allowing the reader time to settle into the interface. Later pages introduce visual noise and forced transitions that reduce the reader’s sense of agency. Rather than relying on explicit narrative explanation, I tried to use changes in tempo, clarity, and user control to communicate fear and instability to allow emotion to emerge through interaction rather than description.
+Rhythm also plays a central role in guiding the user's emotional experience. The story moves from warmth to darkness through an escalation of disruption. Early screens are slow, clear, and familiar, giving the reader time to settle into the interface. Later pages introduce visual noise and forced transitions that reduce the user's sense of agency. Rather than relying on explicit narrative explanation, I tried to use changes in tempo, clarity, and user control to communicate fear and instability to allow emotion to emerge through interaction rather than only description.
 
 # Technical Process
 
 ### HTML Structure
 
-The project is organized as a sequence of HTML files, each representing a different phone interface and a distinct narrative moment in the story. Every page uses the `<body>` class to signal its narrative role (e.g. `lockscreen`, `messages`, `map-page`, `notes`, `shutdown`), allowing layout and atmosphere to be controlled at the page level through CSS and avoids the latter ones overlapping with the ones in the former pages.
+The project is organized as a sequence of HTML files, with each representing a different phone interface and a distinct narrative moment in the story. Every page uses the `<body>` class to signal its narrative role (e.g. `lockscreen`, `messages`, `map-page`, `notes`, `shutdown`), allowing layout and atmosphere to be controlled at the page level through CSS and avoids the latter ones overlapping with the ones in the former pages.
 
-Within each page, the phone interface functions as the primary container of the narrative. Structurally, this is built around a `.phone` wrapper that holds a static phone image and multiple absolutely positioned interface elements layered on top of it, such as status bars, notifications, chat containers, maps, or notes. This approach treats the phone screen as a stage where different narrative units appear and disappear rather than as a traditional scrolling webpage.
+Within each page, the phone interface functions as the primary container of the narrative. Structurally, this is built around a `.phone` wrapper that holds a phone image (position relative) and multiple absolutely positioned interface elements layered on top of it, such as status bars, notifications, chat containers, maps, or notes. This treats the phone screen as a place where different narrative units appear and disappear rather than as a traditional scrolling webpage.
 
 Interactive zones are clearly separated:
 - the phone body acts as the visual frame,
@@ -98,13 +98,13 @@ This structure allows each page to feel like a single, focused interface state r
 
 ### CSS Design Decisions
 
-CSS plays a major role in establishing visual hierarchy and emotional tone. Absolute positioning is used extensively to align interface elements precisely within the phone image, reinforcing the illusion of a real mobile screen. Spacing and alignment are tightly controlled to match familiar mobile UI patterns, which helps users immediately recognize how to interact.
+CSS plays a major role in establishing visual hierarchy and emotional tone. Absolute positioning is used extensively to align interface elements within the phone image, which reinforces the illusion of a real mobile screen. Spacing and alignment are controlled to match familiar mobile UI patterns, which helps users immediately recognize how to interact.
 
 Key CSS decisions include:
 - Visual hierarchy through font size, color contrast, and positioning such as large centered time display on the lock screen, chat bubbles aligned left or right in Messages.
-- Hidden and revealed states implemented using a `.hidden` class with `display: none`, allowing JavaScript to control narrative progression.
-- Animation and transitions, such as the `phoneShake` keyframe animation, blinking alerts, and opacity transitions in the Notes page, which introduce instability as the story darkens.
-- Background images assigned at the body level to create environmental context while keeping the phone interface visually consistent across pages.
+- Hidden and revealed states made using a `.hidden` class with `display: none`, which allows JavaScript to control narrative progression by removing the hidden elements.
+- Animation and transitions, such as the `phoneShake` keyframe animation, blinking alerts, and opacity transitions in the Notes page, which increases instability as the story darkens.
+- Background images assigned at the body level to create environmental context and the progress of the story while keeping the phone interface visually consistent across pages.
 
 Overall, the CSS helps establish and mimic the real phone interface and supports a gradual shift from clarity and stability to disruption and loss of control.
 
@@ -112,15 +112,15 @@ Overall, the CSS helps establish and mimic the real phone interface and supports
 
 ### Example of Key Interactive Element: Timed Messaging and Forced Progression (Messages Page)
 
-One significant dynamic element appears on the Messages page, where the chat conversation unfolds through a combination of user input, timed delays, and DOM manipulation. This interaction simulates a familiar texting experience while subtly removing the user’s agency.
+One significant dynamic element appears on the Messages page, where the chat conversation unfolds through a combination of user input, timed delays, and DOM manipulation. This interaction simulates a familiar texting experience while subtly removing the user's agency.
 
 #### Narrative Effect
 
-The effect creates the illusion that the reader is actively participating in the conversation, even though the dialogue is predetermined. Messages appear in a controlled sequence, and the interface responds automatically: mom starts typing, replies arrive after delays, and the phone eventually begins to shake and transitions to the next page. This reinforces the theme of surveillance and inevitability: no matter what the user does, the story moves forward on its own terms.
+The effect creates the illusion that the user is actively participating in the conversation, even though the dialogue is predetermined. Messages appear in a controlled sequence, and the interface responds automatically: mom starts typing, replies arrive after delays, and the phone eventually begins to shake and transitions to the next page. This reinforces the theme of surveillance and inevitability in the digital age: no matter what the user does to the phone, the story moves forward on its own terms in the real world.
 
 #### Technical Logic
 
-The main interaction is triggered by a click event on the Send button. On the first click, Red's initial message is revealed, a send sound is played, and the chat title changes to indicate that the mother is typing. This creates the illusion of a live and responsive conversation.
+The main interaction is triggered by a click event on the Send button. On the first click, with the if conditional checking whether Red's initial message is revealed, the message is revealed, a send sound is played, and the chat title changes to indicate that the mother is typing. After that, the input is cleared to make it look as if the message has been actually sent. This creates the illusion of a real, live and responsive conversation.
 
 ```javascript
 if (red1Shown == false){
@@ -133,7 +133,7 @@ if (red1Shown == false){
 }
 
 ```
-A ```setTimeout()``` function then delays the appearance of mother's reply. This delay mimics real messaging behavior while also removing control from the user, as the reply arrives automatically.
+A ```setTimeout()``` function then delays the appearance of mother's reply for 3 seconds. This delay mimics real messaging behavior while also removing control from the user, as the reply arrives automatically. Another if conditional is used to ensure mom's reply has not already been displayed, and then reveals it, plays the send sound as it appears, and marks it as shown to prevent it from appearing again. After that, the chat title is reset to its normal state by removing "typing".
 
 ```javascript
 setTimeout(function(){
@@ -147,7 +147,7 @@ setTimeout(function(){
 }, 3000);
 
 ```
-On the second click, Red's final message is revealed with the send sound played.
+On the second click, Red's final message is revealed with the send sound played with else if checking the state.
 
 ```javascript
 else if (red1Shown && momReplyShown && !red2Shown){
@@ -156,7 +156,7 @@ else if (red1Shown && momReplyShown && !red2Shown){
     red2Shown = true;
 }
 ```
-Immediately after, the phone begins to shake and the interface transitions to the next page, marking a narrative shift from conversation to surveillance.The shake animation is followed by a forced page transition, triggered only after the animation completes.
+Three seconds after, the phone begins to shake with a shaking animation added on the phone and the interface transitions to the next page, marking a narrative shift from conversation to surveillance.The shake animation is followed by a forced page transition, triggered only after the animation completes. (this is set to make sure red2 message is seen by the user, before setting this delay the phone shakes immediately after so the user can't take a look at the conversation carefully).
 
 ```javascript
 setTimeout(function () {
@@ -167,14 +167,16 @@ setTimeout(function () {
 }, 3000);
 ```
 
-The input is further controlled using a character counter, which simulates typing by gradually revealing a predefined message. This mechanism overrides free text input while preserving the gesture of typing.
+The input is further controlled using a character counter, which simulates typing by gradually revealing a predefined message. This mechanism overrides free text input while preserving the gesture of typing. 
+
+The scripted message is defined in a variable and the counter is initialized to control how many characters are displayed.
 
 ```javascript
 let currentMessage = "I won't, I promise!";
 let counter = 1;
 ```
 
-Each time the user types, the input event listener updates the visible text to display only the first counter characters of the scripted message.
+Each time the user types, if the full message hasn't been revealed, the input event listener updates the visible text to display only the first counter characters of the scripted message. The else ensures the full message reamins visible once all characters in the variable currentMessage is shown. The counter is then incremented after each input so that more characters appear. 
 
 ```javascript
 input.addEventListener("input", function(e){
@@ -187,25 +189,44 @@ input.addEventListener("input", function(e){
 });
 ```
 
-This approach creates the illusion of agency: the user feels involved in composing the message, but the content remains fully predetermined.
+This approach creates the illusion of agency as the user feels involved in composing the message, but the content remains fully predetermined.
 
 Together, these technical mechanisms transform a familiar chat interface into a controlled storytelling system. True or false lags regulate narrative order, timers introduce anticipation and inevitability, and the counter-based typing simulation limits user agency while maintaining immersion.
 
-Technically, the interaction combines event listeners, timed delays, animations, and DOM manipulation. It reinforces the project’s central theme that digital interfaces often feel personal and participatory, yet operate according to rules and systems that the user cannot see or control.
+Technically, the interaction combines event listeners, timed delays, animations, and DOM manipulation. It reinforces the  central theme that digital interfaces often feel personal and participatory, but they actually operate according to rules and systems that the user cannot see or control while making the users addicted.
 
 ## Reflection and Future Development
 
-The project evolved significantly from its initial concept to the final interactive web experience. At the outset, I envisioned a simple branching narrative presented through text, but after seeing the web projects in class, I realized that the web medium allowed for more immersive storytelling techniques. Introducing timed messaging, automated character responses, and controlled input fields enabled me to create a sense of agency while simultaneously guiding the reader through a predetermined narrative. This approach deepened the engagement and helped communicate themes of surveillance and inevitability, which were central to the story.
+The project evolved significantly from the initial concept to the final interactive web experience. At the outset, I envisioned a simple branching narrative presented through text, but after seeing the web projects in class, I realized that the web medium allowed for more immersive storytelling techniques. Introducing timed messaging, automated character responses, and controlled input fields enabled me to create a sense of agency while guiding the user through a predetermined narrative. This approach deepened the engagement and helped communicate themes of surveillance and inevitability.
 
-Through the project development process, I learned a great deal about the unique affordances of web-based storytelling. Unlike traditional linear narratives, the web allows for interaction, audio-visual cues, and timed events, all of which can manipulate pacing and reader perception. I discovered that even small details like a typing indicator, a sound effect, or a subtle page animation can enhance immersion and emotional impact. Balancing control and agency for the user was a key challenge: I wanted readers to feel involved without giving them full narrative control, and testing different methods like the incremental input counter and message delays taught me how to create this illusion effectively.
+Through the project development process, I learned a great deal about the unique affordances of web-based storytelling. Unlike traditional linear narratives in the fairy tale book, the web allows for interaction, audio-visual cues, and timed events, which can all manipulate pacing and user perception. I discovered that even small details like a typing indicator, a sound effect, or a subtle page animation can enhance immersion and emotional impact. Balancing control and agency for the user was a key challenge: I wanted readers to feel involved without giving them full narrative control, and testing different methods like the incremental input counter and message delays taught me how to create this illusion effectively (thanks to my peer testers' advice!)
 
 Several elements of the project I consider successful include the messaging interface, the timing of responses, choice of different phone platforms with distinct forms of interactions and the use of audio cues to reinforce the experience of the phone interface. Users frequently commented that the interaction felt ral and engaging, which suggested the approach achieved its intended effect. On the other hand, areas for improvement include expanding the range of possible interactions and providing more visual feedback for user choices. For example, additional branching paths (such as creating options like following mom's advice or not) or subtle changes in the background based on previous interactions (such as the change of the background gradually as if Little Red is actually navigating through the forest to grandma's house accompanying the shaking of the phone) could increase replayability and depth.
 
 Feedback from peers and the instructor was instrumental in refining the project. Early testing highlighted moments where timing felt either too slow or too abrupt, and I adjusted the `setTimeout` delays and animation durations accordingly. Suggestions about clarifying the user's role and enhancing accessibility also influenced revisions, prompting me to improve labeling and ensure the interface remained intuitive. To be specific, I removed the chat with the wolf as my classmates said that the wolf shouldn't know how to type in real life and also removed the wolf's comments in the instagram page for the same reason. Instead, I hid the wolf subtly in the corners of the pictures in the post. Moreover, people feeling at a loss what to type for the password inspired me to add a front page introducing my project and the name of Little Red Riding Hood to help people fill the password. During the actual presentation, I received feedback for changing the last page from chalk-and-talk to the wolf's rating of the forest with delicious food in the wolf's web, which was very interesting and worth trying. Also, changing the sending of the message in instagram into an incoming message would make the narrative more coherent.
 
-Looking beyond the class, this project has potential for further development into a more complex web-based narrative. Future enhancements could include multiple storylines, richer multimedia elements, or a more adaptive system that responds to user behavior. Additionally, integrating analytics could provide insight into how readers experience the story, which could inform both narrative design and interface improvements. Ultimately, this project serves as a foundation for exploring how interactive web technologies can reshape storytelling, and I am eager to continue experimenting with these techniques in future creative endeavors.
+Looking beyond the class, this project has potential for further development into a more complex web-based narrative. Future enhancements could include multiple storylines about whether Little Red follows advice/puts down her phone/discovers the wolf or not, richer multimedia elementswith more sound effects and better visuals, or a more adaptive system that responds to user behavior more smartly. Ultimately, this project serves as a foundation for me in exploring how interactive web technologies of scrolling, clicking and typing with the use of Javascript and CSS can reshape storytelling, and I am eager to continue experimenting with these techniques in future creative endeavors.
 
 ## Credits and References: 
+
+### Great people:
+
+- Professor Leon for code suggestions in Javascript and class slides
+- Fellow classmates who gave me suggestions on how to better the interaction and design
+
+### Background pictures: 
+
+Lockscreen page: https://th.bing.com/th/id/R.f2ae085d3b42220e15b6d899dd47af6e?rik=jCAhbhzhB3yfPQ&riu=http%3a%2f%2fpic.616pic.com%2fbg_w1180%2f00%2f14%2f92%2f3oQkRAYzBU.jpg&ehk=m%2fui5mzmzhSUEk4718zS8%2bw7fr3Aw0IOVVN8PK38Oww%3d&risl=&pid=ImgRaw&r=0;
+
+Messages page: https://img95.699pic.com/photo/60097/1521.jpg_wh860.jpg
+
+Media page: https://img95.699pic.com/photo/50110/8335.jpg_wh860.jpg
+
+Notes page: https://img95.699pic.com/photo/60067/0340.jpg_wh860.jpg
+
+Shutdown page: https://th.bing.com/th/id/R.8a98387c6ac171ede40f4e0db0a381cf?rik=WIRXGPIBNkaiUw&riu=http%3a%2f%2fpic.616pic.com%2fbg_w1180%2f00%2f09%2f48%2fzTfNt2BSiW.jpg!%2ffw%2f1120&ehk=ALdyceBTSjg84NZ1rn0OqURguz5ZNT3oLjJVk8xLQwM%3d&risl=&pid=ImgRaw&r=0;
+
+Main page: https://th.bing.com/th/id/R.f2ae085d3b42220e15b6d899dd47af6e?rik=jCAhbhzhB3yfPQ&riu=http%3a%2f%2fpic.616pic.com%2fbg_w1180%2f00%2f14%2f92%2f3oQkRAYzBU.jpg&ehk=m%2fui5mzmzhSUEk4718zS8%2bw7fr3Aw0IOVVN8PK38Oww%3d&risl=&pid=ImgRaw&r=0
 
 ### Sound Effects: 
 
@@ -216,6 +237,7 @@ Sound of incoming messsages：https://www.aigei.com/item/iphone_xiao_xi_1.html
 Sound of sending out messages：https://www.aigei.com/item/ping_guo_shou_j_3298.html
 
 Other sound effects are recorded using my own phone.
+
 ### Technical References:
 
 #### CSS:
